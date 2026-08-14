@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/offa-heritage/', // <--- CAMINHO EXATO DO SEU REPOSITÓRIO NO GITHUB
+    base: '/', // <--- CAMINHO EXATO DO SEU REPOSITÓRIO NO GITHUB
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
