@@ -1,0 +1,6 @@
+{
+  "name": "Offa Heritage",
+  "description": "Digital heritage archive, historic street catalog, community reports, projects, and cultural preservation for Offa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
