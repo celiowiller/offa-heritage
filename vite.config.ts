@@ -5,12 +5,13 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/offa-heritage/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
       },
-      base: '/offa-heritage/',
+      
     },
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
